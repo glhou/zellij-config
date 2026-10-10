@@ -31,6 +31,8 @@ keybinds clear-defaults=true {
     bind "7" { GoToTab 8; SwitchToMode "locked"; }
     bind "8" { GoToTab 9; SwitchToMode "locked"; }
     bind "9" { GoToTab 10; SwitchToMode "locked"; }
+
+    bind "Ctrl q" { Quit;}
   }
   scroll {
     bind "e" { EditScrollback; SwitchToMode "locked"; }
